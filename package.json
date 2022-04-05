@@ -1,0 +1,20 @@
+{
+  "name": "convert_csv_to_html",
+  "version": "1.0.0",
+  "description": "A simple script to convert a csv file into a HTML table",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc main.ts && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Fran Fernández",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "@types/node": "^17.0.23"
+  },
+  "dependencies": {
+    "jsdom": "^19.0.0"
+  }
+}
